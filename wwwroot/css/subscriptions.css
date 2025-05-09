@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.planTitle {
+    text-align: center;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: .0625rem;
+    line-height: 1.2;
+}
+
+.planSubtitle {
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: .0625rem;
+    line-height: 1.2;
+}
+
+.pricingTable {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.pricingTable h2, p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.pricingCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure even spacing */
+    align-items: center; /* Center items horizontally */
+    border: 5px solid #fff;
+    border-radius: 20px;
+    width: 400px;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 20px; /* Add padding for consistent spacing */
+}
+
+.buyButton {
+    margin-top: 10px; /* Crește spațiul de deasupra butonului */
+    display: inline-block;
+    padding: 12px 20px; /* Crește dimensiunea padding-ului */
+    font-size: 1.5rem; /* Crește dimensiunea fontului */
+    background: #3354a7;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease Os;
+    border: 2px solid #edf0f1;
+    border-radius: 10px;
+}
+
+.buyButton:hover {
+    background: #061539;
+    color: #fff;
+}

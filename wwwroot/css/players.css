@@ -1,0 +1,23 @@
+.players ul{
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0px; /* Add some margin for spacing */
+    margin-bottom: 50px; /* Add some margin at the bottom */
+}
+
+.players h1 {
+    margin-left: 300px;
+}
+
+.players li {
+    margin: 0 40px; /* Add some space between the images */
+}
+
+.players img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}

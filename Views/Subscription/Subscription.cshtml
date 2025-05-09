@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Subscription";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Universitatea Craiova</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="~/images/logo.ico">
+    <link rel="stylesheet" href="~/css/default.css">
+    <link rel="stylesheet" href="~/css/subscriptions.css">
+
+</head>
+
+<body>
+
+    <section class="productSection">
+        <div class="planTitle"><h1>Planuri de abonament</h1></div>
+        <div class="planSubtitle"><p>CEL MAI BUN MOD DE A-ȚI SUSȚINE CLUBUL DE SUFLET ESTE SĂ CUMPERI UN ABONAMENT</p></div>
+        <div class="pricingTable">
+            <div class="pricingCard featured">
+                <h2>Peluza Nord</h2>
+                <p>Bucurați-vă de toate beneficiile economisind bani comparativ cu noii abonați.<br>Loialitatea voastră merită să fie răsplătită.</p>
+                <h2>Pret abonament nou</h2>
+                <h2>249<br>RON</h2>
+                <h2>Pret abonament reinnoire</h2>
+                <h2>199<br>RON</h2>
+                <form asp-controller="Subscription" asp-action="UpdateSubscriptionType" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="subscriptionType" value="Peluza Nord" />
+                    <button type="submit" class="buyButton">Cumpărați</button>
+                </form>
+            </div>
+
+            <div class="pricingCard featured">
+                <h2>Tribuna a II-a</h2>
+                <p>Aveți cel mai bun loc din stadion, și ca abonat premium, este al vostru.<br>Nu trebuie să vă faceți griji că îl veți pierde în favoarea altcuiva.</p>
+                <h2>Pret abonament nou</h2>
+                <h2>499<br>RON</h2>
+                <h2>Pret abonament reinnoire</h2>
+                <h2>399<br>RON</h2>
+                <form asp-controller="Subscription" asp-action="UpdateSubscriptionType" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="subscriptionType" value="Tribuna a II-a" />
+                    <button type="submit" class="buyButton">Cumpărați</button>
+                </form>
+            </div>
+
+            <div class="pricingCard featured">
+                <h2>Tribuna VIP</h2>
+                <p>Aveți acces direct la managerul general, antrenor și echipă.<br>Puneți întrebări, descoperiți secrete din culise și împărtășiți-vă ideile pentru a influența direct evoluția echipei.</p>
+                <h2>Pret abonament nou</h2>
+                <h2>1299<br>RON</h2>
+                <h2>Pret abonament reinnoire</h2>
+                <h2>1099<br>RON</h2>
+                <form asp-controller="Subscription" asp-action="UpdateSubscriptionType" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="subscriptionType" value="Tribuna VIP" />
+                    <button type="submit" class="buyButton">Cumpărați</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/subscription.js"></script>
+    <script src="../js/footer.js"></script>
+
+</body>
+</html>

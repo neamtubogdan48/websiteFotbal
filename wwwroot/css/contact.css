@@ -1,0 +1,76 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.contact {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: flex-start; /* Align items to the top */
+    flex-direction: row; /* Display items in a row */
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0px; /* Add some margin for spacing */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact ul li {
+    margin: 0 40px;
+}
+
+.contact h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-style: italic, bold;
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0px 0px;
+    margin-bottom: 100px;
+}
+
+.maps iframe {
+    border-radius: 10px;
+}
+
+.buyButton {
+    margin-top: 10px; /* Crește spațiul de deasupra butonului */
+    display: inline-block;
+    padding: 12px 20px; /* Crește dimensiunea padding-ului */
+    font-size: 1.5rem; /* Crește dimensiunea fontului */
+    background: #233e80;
+    cursor: pointer;
+    transition: all .3s ease Os;
+    border: 2px solid #edf0f1;
+    border-radius: 10px;
+
+}
+
+.buyButton:hover {
+    background: #fff;
+    color: #233e80;
+    border: 2px solid #233e80;
+}
+
+.messageArea {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Align items to the top */
+    flex-direction: column; /* Display items in a row */
+    padding: 0;
+    margin: 20px 0px; /* Add some margin for spacing */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+}

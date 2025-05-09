@@ -1,0 +1,69 @@
+﻿@model mvc.Models.Users
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<link rel="stylesheet" href="~/css/usersCRUD.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/default.css" asp-append-version="true" />
+
+<h1 class="centerDiv">Are you sure you want to delete this entry?</h1>
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.UserName)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Email)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.accountType)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.subscriptionId)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Id)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.photoPath)
+		</th>
+	</tr>
+	<tr>
+		<td>
+			@Html.DisplayFor(model => model.UserName)
+		</td>
+		<td>
+			@Html.DisplayFor(model => model.Email)
+		</td>
+		<td>
+			@Html.DisplayFor(model => model.accountType)
+		</td>
+		<td>
+			@Html.DisplayFor(model => model.subscriptionId)
+		</td>
+		<td>
+			@Html.DisplayFor(model => model.Id)
+		</td>
+		<td>
+			@if (!string.IsNullOrEmpty(Model.photoPath))
+			{
+				<a href="@Model.photoPath" target="_blank">@Html.DisplayFor(model => model.photoPath)</a>
+			}
+			@if (string.IsNullOrEmpty(Model.photoPath))
+			{
+				<span>No document uploaded</span>
+			}
+		</td>
+
+	</tr>
+</table>
+
+<div class="centerDiv">
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn" /> |
+        <a asp-action="Index" class="btn">Back to List</a>
+    </form>
+</div>

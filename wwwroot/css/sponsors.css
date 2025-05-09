@@ -1,0 +1,20 @@
+.sponsors ul{
+    display: flex;
+    justify-content: flex-start; /* Center the images horizontally */
+    align-items: flex-start; /* Center the images vertically */
+    flex-wrap: wrap; /* Wrap the images */
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 60px; /* Add some margin at the bottom */
+}
+
+.sponsors li {
+    margin: 0 40px; /* Add some space between the images */
+}
+
+.sponsors img {
+    width: 250px;
+    height: 200px;
+    margin-left: 40%;
+    margin-right: 50%;
+}

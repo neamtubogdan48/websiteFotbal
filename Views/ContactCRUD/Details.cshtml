@@ -1,0 +1,46 @@
+﻿@model mvc.Models.Contact
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<link rel="stylesheet" href="~/css/usersCRUD.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/default.css" asp-append-version="true" />
+
+<h1 class="centerDiv">Details</h1>
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.id)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.message)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.userId)
+		</th>
+		<th>
+			@Model.timeSent.ToString("dd-MM-yyyy HH:mm"))
+		</th>
+	</tr>
+	<tr>
+		<th>
+			@Html.DisplayFor(model => model.id)
+		</th>
+		<td>
+			@Html.DisplayFor(model => model.message)
+		</td>
+		<td>
+			@Html.DisplayFor(model => model.userId)
+		</td>
+		<td>
+			@Model.timeSent.ToString("dd-MM-yyyy HH:mm")
+		</td>
+	</tr>
+</table>
+
+<div class="centerDiv">
+    <a asp-action="Edit" asp-route-id="@Model.id" class="btn">Edit</a>
+    <a asp-action="Index" class="btn">Back to List</a>
+</div>
