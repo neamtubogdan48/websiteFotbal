@@ -17,157 +17,237 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = mvc
 build_property.RootNamespace = mvc
-build_property.ProjectDir = d:\Facultate\Anul III\Sem II\Proiect PAW\mvc dev 2\mvc\
+build_property.ProjectDir = D:\Facultate\Anul III\Sem II\Proiect PAW\mvc dev 2\mvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Facultate\Anul III\Sem II\Proiect PAW\mvc dev 2\mvc
+build_property.MSBuildProjectDirectory = D:\Facultate\Anul III\Sem II\Proiect PAW\mvc dev 2\mvc
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Pages/_ValidationScriptsPartial.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Account/Login.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Account/Register.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/ContactCRUD/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdENSVURcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/ContactCRUD/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdENSVURcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/ContactCRUD/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdENSVURcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/ContactCRUD/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdENSVURcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/ContactCRUD/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdENSVURcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Contact/Contact.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Contact/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/AccessDenied.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Contact/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Contact/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Contact/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Contact/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/History.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/History.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/Index.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/News.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzLmNzaHRtbA==
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/News/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/NewsArticle1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdzQXJ0aWNsZTEuY3NodG1s
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/News/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/Players.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQbGF5ZXJzLmNzaHRtbA==
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/News/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/Schedule.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTY2hlZHVsZS5jc2h0bWw=
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/News/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Home/Sponsors.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTcG9uc29ycy5jc2h0bWw=
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/News/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Shared/Error.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/News/News.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/News/NewsArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzQXJ0aWNsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Player/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Player/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Player/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Player/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Player/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Player/Players.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXFBsYXllcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Schedule/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Schedule/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Schedule/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Schedule/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Schedule/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Schedule/Schedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2NoZWR1bGVcU2NoZWR1bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Shared/_AccountLayout.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Shared/_AccountLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BY2NvdW50TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/SubscriptionCRUD/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uQ1JVRFxDcmVhdGUuY3NodG1s
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Sponsor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/SubscriptionCRUD/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uQ1JVRFxEZWxldGUuY3NodG1s
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Sponsor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/SubscriptionCRUD/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uQ1JVRFxEZXRhaWxzLmNzaHRtbA==
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Sponsor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/SubscriptionCRUD/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uQ1JVRFxFZGl0LmNzaHRtbA==
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Sponsor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/SubscriptionCRUD/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uQ1JVRFxJbmRleC5jc2h0bWw=
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Sponsor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Subscription/Subscription.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Sponsor/Sponsors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BvbnNvclxTcG9uc29ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Subscription/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Subscription/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Subscription/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Subscription/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Subscription/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Subscription/Subscription.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaXB0aW9uXFN1YnNjcmlwdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/UserAsync/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFzeW5jXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/UserAsync/User.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFzeW5jXFVzZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Create.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Delete.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Details.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Edit.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Index.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/_ViewImports.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Users/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/_ViewStart.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Shared/_Layout.cshtml]
+[D:/Facultate/Anul III/Sem II/Proiect PAW/mvc dev 2/mvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-x8p8g49oo3

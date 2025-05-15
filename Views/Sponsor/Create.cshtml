@@ -1,0 +1,38 @@
+﻿@model mvc.Models.Sponsor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<link rel="stylesheet" href="~/css/usersCRUD.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/default.css" asp-append-version="true" />
+
+<h1 class="centerDiv">Create</h1>
+
+<div class="centerDiv">
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div>
+            <label asp-for="name" class="control-label"></label>
+            <input asp-for="name" class="form-control" />
+            <span asp-validation-for="name" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="description" class="control-label"></label>
+            <input asp-for="description" class="form-control"></input>
+            <span asp-validation-for="description" class="text-danger"></span>
+        </div>
+        <div>
+            <label for="photoPathFile" class="control-label">Upload Document</label>
+            <input type="file" name="photoPathFile" id="photoPathFile" class="form-control" />
+            <span class="text-danger">@ViewData["FileUploadError"]</span>
+        </div>
+        <div class="centerDiv">
+            <input type="submit" value="Create" class="btn" />
+        </div>
+    </form>
+</div>
+
+<div class="centerDiv">
+    <a asp-action="Index" class="btn">Back to List</a>
+</div>
+

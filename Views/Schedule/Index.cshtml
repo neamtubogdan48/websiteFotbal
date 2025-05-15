@@ -1,0 +1,61 @@
+﻿@model IEnumerable<mvc.Models.Schedule>
+
+@{
+    ViewData["Title"] = "Schedule";
+}
+
+<link rel="stylesheet" href="~/css/usersCRUD.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/default.css" asp-append-version="true" />
+
+<h1 class="centerDiv">Schedule</h1>
+
+<p class="centerDiv">
+    <a asp-action="Create" class="btn">Create New</a>
+</p>
+<table class="table">
+
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.homeTeam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.awayTeam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.matchDate)
+        </th>
+		<th>
+            @Html.DisplayNameFor(model => model.result)
+		</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.homeTeam)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.awayTeam)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.matchDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.result)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id" class="btn">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id" class="btn">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id" class="btn">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>

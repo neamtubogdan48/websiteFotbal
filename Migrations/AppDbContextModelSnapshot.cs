@@ -180,6 +180,92 @@ namespace mvc.Migrations
                     b.ToTable("Contact");
                 });
 
+            modelBuilder.Entity("mvc.Models.News", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<string>("description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("photo")
+                        .HasColumnType("text");
+
+                    b.Property<DateOnly>("publishDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("id");
+
+                    b.ToTable("News");
+                });
+
+            modelBuilder.Entity("mvc.Models.Player", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<string>("name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("number")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("photo")
+                        .HasColumnType("text");
+
+                    b.Property<string>("position")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Player");
+                });
+
+            modelBuilder.Entity("mvc.Models.Schedule", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<string>("awayTeam")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("homeTeam")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("matchDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("result")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("stadium")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Schedule");
+                });
+
             modelBuilder.Entity("mvc.Models.Subscription", b =>
                 {
                     b.Property<int>("id")
@@ -276,103 +362,6 @@ namespace mvc.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("mvc.data.models.News", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
-
-                    b.Property<string>("photo")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<DateOnly>("publishDate")
-                        .HasColumnType("date");
-
-                    b.Property<string>("title")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("id");
-
-                    b.ToTable("News");
-                });
-
-            modelBuilder.Entity("mvc.data.models.Player", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
-
-                    b.Property<string>("name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("newsId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("number")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("photo")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("position")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("id");
-
-                    b.HasIndex("newsId");
-
-                    b.ToTable("Player");
-                });
-
-            modelBuilder.Entity("mvc.data.models.Schedule", b =>
-                {
-                    b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
-
-                    b.Property<string>("awayTeam")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("homeTeam")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<DateOnly>("matchDate")
-                        .HasColumnType("date");
-
-                    b.Property<TimeOnly>("matchTime")
-                        .HasColumnType("time without time zone");
-
-                    b.Property<int>("newsId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("result")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("stadium")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("id");
-
-                    b.HasIndex("newsId");
-
-                    b.ToTable("Schedule");
-                });
-
             modelBuilder.Entity("mvc.data.models.Sponsor", b =>
                 {
                     b.Property<int>("id")
@@ -385,20 +374,14 @@ namespace mvc.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("logo")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("name")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("newsId")
-                        .HasColumnType("integer");
+                    b.Property<string>("photo")
+                        .HasColumnType("text");
 
                     b.HasKey("id");
-
-                    b.HasIndex("newsId");
 
                     b.ToTable("Sponsor");
                 });
@@ -474,39 +457,6 @@ namespace mvc.Migrations
                         .IsRequired();
 
                     b.Navigation("subscription");
-                });
-
-            modelBuilder.Entity("mvc.data.models.Player", b =>
-                {
-                    b.HasOne("mvc.data.models.News", "News")
-                        .WithMany()
-                        .HasForeignKey("newsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("News");
-                });
-
-            modelBuilder.Entity("mvc.data.models.Schedule", b =>
-                {
-                    b.HasOne("mvc.data.models.News", "News")
-                        .WithMany()
-                        .HasForeignKey("newsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("News");
-                });
-
-            modelBuilder.Entity("mvc.data.models.Sponsor", b =>
-                {
-                    b.HasOne("mvc.data.models.News", "News")
-                        .WithMany()
-                        .HasForeignKey("newsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("News");
                 });
 #pragma warning restore 612, 618
         }

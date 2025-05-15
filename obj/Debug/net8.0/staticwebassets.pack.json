@@ -425,8 +425,32 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\39cf8c0f-491d-40b4-b76c-c9bd00c968bb.jpg",
+      "PackagePath": "staticwebassets\\uploads\\news\\39cf8c0f-491d-40b4-b76c-c9bd00c968bb.jpg"
+    },
+    {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\987930e4-8775-407c-82d5-1b24d45a8f8e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\news\\987930e4-8775-407c-82d5-1b24d45a8f8e.jpg"
+    },
+    {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\players\\225c41b5-bbb3-47cc-8769-1550d9f4013d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\players\\225c41b5-bbb3-47cc-8769-1550d9f4013d.jpg"
+    },
+    {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\players\\6320b616-c14c-4c1e-b831-2cce7bd17dc8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\players\\6320b616-c14c-4c1e-b831-2cce7bd17dc8.jpg"
+    },
+    {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\sponsors\\57d5029f-9467-475f-a4b0-3f645b76eabc.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sponsors\\57d5029f-9467-475f-a4b0-3f645b76eabc.jpg"
+    },
+    {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\1dff0e81-2798-471b-aa9a-0393a438a1cf.png",
       "PackagePath": "staticwebassets\\uploads\\users\\1dff0e81-2798-471b-aa9a-0393a438a1cf.png"
+    },
+    {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\4407ff25-9d3e-4294-b639-9456bf5eb608.jpg",
+      "PackagePath": "staticwebassets\\uploads\\users\\4407ff25-9d3e-4294-b639-9456bf5eb608.jpg"
     },
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\50a4a2d5-1c70-4b2d-82f3-2c39f84e8c62.png",
@@ -457,16 +481,16 @@
       "PackagePath": "staticwebassets\\uploads\\users\\7cd6ec7b-f603-4a86-aee6-d2aa21fddd69.png"
     },
     {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\83fdce2b-26af-43db-a02b-3d0159c541da.png",
+      "PackagePath": "staticwebassets\\uploads\\users\\83fdce2b-26af-43db-a02b-3d0159c541da.png"
+    },
+    {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\89aa11c4-86a2-4d65-b785-25f383212e5b.png",
       "PackagePath": "staticwebassets\\uploads\\users\\89aa11c4-86a2-4d65-b785-25f383212e5b.png"
     },
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\98657ca1-2565-4eba-b449-52fb48c49f65.png",
       "PackagePath": "staticwebassets\\uploads\\users\\98657ca1-2565-4eba-b449-52fb48c49f65.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\999eaf2e-eb43-4737-bd74-1db4b09fbe96.jpg",
-      "PackagePath": "staticwebassets\\uploads\\users\\999eaf2e-eb43-4737-bd74-1db4b09fbe96.jpg"
     },
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\9dfc87f2-1679-4da5-bffe-cfb42701f8fd.png",
@@ -483,6 +507,10 @@
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\default - Copy.png",
       "PackagePath": "staticwebassets\\uploads\\users\\default - Copy.png"
+    },
+    {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\fc117e85-c052-46d0-855e-13965a23282f.jpg",
+      "PackagePath": "staticwebassets\\uploads\\users\\fc117e85-c052-46d0-855e-13965a23282f.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.mvc.props",

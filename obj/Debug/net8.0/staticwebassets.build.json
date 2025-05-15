@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KlfDbCQYxB+3WQNsjF5ALMM5eMs4zRBElgQnB7pWH7w=",
+  "Hash": "BPF4xkuYBeed5jLX3QYZ/V5BCPcPF0piQeymd8gpnHY=",
   "Source": "mvc",
   "BasePath": "_content/mvc",
   "Mode": "Default",
@@ -346,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3lrjb53udh",
-      "Integrity": "mR5JItwDKOXIdEdUnFHQjmET3nuunfKo48/0gtaWGgU=",
+      "Fingerprint": "qq6ghqjtje",
+      "Integrity": "Ik96YBPbUu4BI2TEcNxrqWGv5Qa09gBd5FTAKYa7Ojc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\user.css"
@@ -2264,6 +2264,111 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+      "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\39cf8c0f-491d-40b4-b76c-c9bd00c968bb.jpg",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\",
+      "BasePath": "_content/mvc",
+      "RelativePath": "uploads/news/39cf8c0f-491d-40b4-b76c-c9bd00c968bb#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vrgm9zjqvx",
+      "Integrity": "a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\news\\39cf8c0f-491d-40b4-b76c-c9bd00c968bb.jpg"
+    },
+    {
+      "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\987930e4-8775-407c-82d5-1b24d45a8f8e.jpg",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\",
+      "BasePath": "_content/mvc",
+      "RelativePath": "uploads/news/987930e4-8775-407c-82d5-1b24d45a8f8e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vrgm9zjqvx",
+      "Integrity": "a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\news\\987930e4-8775-407c-82d5-1b24d45a8f8e.jpg"
+    },
+    {
+      "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\players\\225c41b5-bbb3-47cc-8769-1550d9f4013d.jpg",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\",
+      "BasePath": "_content/mvc",
+      "RelativePath": "uploads/players/225c41b5-bbb3-47cc-8769-1550d9f4013d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jf2vbsr7fb",
+      "Integrity": "8ZbQaHL2rwzWexAo2xFohnTtm/aYpy2rxPaMBu0et8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\players\\225c41b5-bbb3-47cc-8769-1550d9f4013d.jpg"
+    },
+    {
+      "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\players\\6320b616-c14c-4c1e-b831-2cce7bd17dc8.jpg",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\",
+      "BasePath": "_content/mvc",
+      "RelativePath": "uploads/players/6320b616-c14c-4c1e-b831-2cce7bd17dc8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vrgm9zjqvx",
+      "Integrity": "a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\players\\6320b616-c14c-4c1e-b831-2cce7bd17dc8.jpg"
+    },
+    {
+      "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\sponsors\\57d5029f-9467-475f-a4b0-3f645b76eabc.jpg",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\",
+      "BasePath": "_content/mvc",
+      "RelativePath": "uploads/sponsors/57d5029f-9467-475f-a4b0-3f645b76eabc#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jf2vbsr7fb",
+      "Integrity": "8ZbQaHL2rwzWexAo2xFohnTtm/aYpy2rxPaMBu0et8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sponsors\\57d5029f-9467-475f-a4b0-3f645b76eabc.jpg"
+    },
+    {
       "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\1dff0e81-2798-471b-aa9a-0393a438a1cf.png",
       "SourceId": "mvc",
       "SourceType": "Discovered",
@@ -2283,6 +2388,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\users\\1dff0e81-2798-471b-aa9a-0393a438a1cf.png"
+    },
+    {
+      "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\4407ff25-9d3e-4294-b639-9456bf5eb608.jpg",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\",
+      "BasePath": "_content/mvc",
+      "RelativePath": "uploads/users/4407ff25-9d3e-4294-b639-9456bf5eb608#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vrgm9zjqvx",
+      "Integrity": "a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\4407ff25-9d3e-4294-b639-9456bf5eb608.jpg"
     },
     {
       "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\50a4a2d5-1c70-4b2d-82f3-2c39f84e8c62.png",
@@ -2432,6 +2558,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\users\\7cd6ec7b-f603-4a86-aee6-d2aa21fddd69.png"
     },
     {
+      "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\83fdce2b-26af-43db-a02b-3d0159c541da.png",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\",
+      "BasePath": "_content/mvc",
+      "RelativePath": "uploads/users/83fdce2b-26af-43db-a02b-3d0159c541da#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4tkryobxqs",
+      "Integrity": "GFSg8dVQO6V8s93W6sGJ+mm3cQz5UT/wtWabFYDksxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\83fdce2b-26af-43db-a02b-3d0159c541da.png"
+    },
+    {
       "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\89aa11c4-86a2-4d65-b785-25f383212e5b.png",
       "SourceId": "mvc",
       "SourceType": "Discovered",
@@ -2472,27 +2619,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\users\\98657ca1-2565-4eba-b449-52fb48c49f65.png"
-    },
-    {
-      "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\999eaf2e-eb43-4737-bd74-1db4b09fbe96.jpg",
-      "SourceId": "mvc",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\",
-      "BasePath": "_content/mvc",
-      "RelativePath": "uploads/users/999eaf2e-eb43-4737-bd74-1db4b09fbe96#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fl1n5cyaq8",
-      "Integrity": "09w4BjAAbOA5bslUMO7tWoBD+s5Y6xhfce1pTdYOzrE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\users\\999eaf2e-eb43-4737-bd74-1db4b09fbe96.jpg"
     },
     {
       "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\9dfc87f2-1679-4da5-bffe-cfb42701f8fd.png",
@@ -2577,6 +2703,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\users\\default - Copy.png"
+    },
+    {
+      "Identity": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\fc117e85-c052-46d0-855e-13965a23282f.jpg",
+      "SourceId": "mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\",
+      "BasePath": "_content/mvc",
+      "RelativePath": "uploads/users/fc117e85-c052-46d0-855e-13965a23282f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4gnzfsq0so",
+      "Integrity": "jJ94aeW5IAyDj9wj0+zLqZC3Nb+M4COEOGjDpoehc4I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\users\\fc117e85-c052-46d0-855e-13965a23282f.jpg"
     }
   ],
   "Endpoints": [
@@ -3647,51 +3794,6 @@
       ]
     },
     {
-      "Route": "css/user.3lrjb53udh.css",
-      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\css\\user.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1096"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mR5JItwDKOXIdEdUnFHQjmET3nuunfKo48/0gtaWGgU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 13:47:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3lrjb53udh"
-        },
-        {
-          "Name": "label",
-          "Value": "css/user.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mR5JItwDKOXIdEdUnFHQjmET3nuunfKo48/0gtaWGgU="
-        }
-      ]
-    },
-    {
       "Route": "css/user.css",
       "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\css\\user.css",
       "Selectors": [],
@@ -3702,7 +3804,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1096"
+          "Value": "1124"
         },
         {
           "Name": "Content-Type",
@@ -3710,11 +3812,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mR5JItwDKOXIdEdUnFHQjmET3nuunfKo48/0gtaWGgU=\""
+          "Value": "\"Ik96YBPbUu4BI2TEcNxrqWGv5Qa09gBd5FTAKYa7Ojc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 03 Apr 2025 13:47:08 GMT"
+          "Value": "Thu, 15 May 2025 21:52:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3724,7 +3826,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mR5JItwDKOXIdEdUnFHQjmET3nuunfKo48/0gtaWGgU="
+          "Value": "sha256-Ik96YBPbUu4BI2TEcNxrqWGv5Qa09gBd5FTAKYa7Ojc="
+        }
+      ]
+    },
+    {
+      "Route": "css/user.qq6ghqjtje.css",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\css\\user.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ik96YBPbUu4BI2TEcNxrqWGv5Qa09gBd5FTAKYa7Ojc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 21:52:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qq6ghqjtje"
+        },
+        {
+          "Name": "label",
+          "Value": "css/user.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ik96YBPbUu4BI2TEcNxrqWGv5Qa09gBd5FTAKYa7Ojc="
         }
       ]
     },
@@ -11213,7 +11360,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 00:21:48 GMT"
+          "Value": "Thu, 15 May 2025 21:40:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11250,7 +11397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 00:21:48 GMT"
+          "Value": "Thu, 15 May 2025 21:40:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11287,7 +11434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 00:21:48 GMT"
+          "Value": "Thu, 15 May 2025 21:40:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11332,7 +11479,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 00:21:48 GMT"
+          "Value": "Thu, 15 May 2025 21:40:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11351,6 +11498,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-wPmef2PqrhQVZTQC06SyHnlT0ylzAHQ8CC/KpaT8Mbs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/news/39cf8c0f-491d-40b4-b76c-c9bd00c968bb.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\39cf8c0f-491d-40b4-b76c-c9bd00c968bb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 20:45:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/news/39cf8c0f-491d-40b4-b76c-c9bd00c968bb.vrgm9zjqvx.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\39cf8c0f-491d-40b4-b76c-c9bd00c968bb.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 20:45:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vrgm9zjqvx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/news/39cf8c0f-491d-40b4-b76c-c9bd00c968bb.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/news/987930e4-8775-407c-82d5-1b24d45a8f8e.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\987930e4-8775-407c-82d5-1b24d45a8f8e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 20:45:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/news/987930e4-8775-407c-82d5-1b24d45a8f8e.vrgm9zjqvx.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\987930e4-8775-407c-82d5-1b24d45a8f8e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 20:45:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vrgm9zjqvx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/news/987930e4-8775-407c-82d5-1b24d45a8f8e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/players/225c41b5-bbb3-47cc-8769-1550d9f4013d.jf2vbsr7fb.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\players\\225c41b5-bbb3-47cc-8769-1550d9f4013d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZbQaHL2rwzWexAo2xFohnTtm/aYpy2rxPaMBu0et8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 21:27:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jf2vbsr7fb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/players/225c41b5-bbb3-47cc-8769-1550d9f4013d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZbQaHL2rwzWexAo2xFohnTtm/aYpy2rxPaMBu0et8M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/players/225c41b5-bbb3-47cc-8769-1550d9f4013d.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\players\\225c41b5-bbb3-47cc-8769-1550d9f4013d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZbQaHL2rwzWexAo2xFohnTtm/aYpy2rxPaMBu0et8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 21:27:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZbQaHL2rwzWexAo2xFohnTtm/aYpy2rxPaMBu0et8M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/players/6320b616-c14c-4c1e-b831-2cce7bd17dc8.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\players\\6320b616-c14c-4c1e-b831-2cce7bd17dc8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 21:29:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/players/6320b616-c14c-4c1e-b831-2cce7bd17dc8.vrgm9zjqvx.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\players\\6320b616-c14c-4c1e-b831-2cce7bd17dc8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 21:29:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vrgm9zjqvx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/players/6320b616-c14c-4c1e-b831-2cce7bd17dc8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sponsors/57d5029f-9467-475f-a4b0-3f645b76eabc.jf2vbsr7fb.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\sponsors\\57d5029f-9467-475f-a4b0-3f645b76eabc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZbQaHL2rwzWexAo2xFohnTtm/aYpy2rxPaMBu0et8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 22:15:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jf2vbsr7fb"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sponsors/57d5029f-9467-475f-a4b0-3f645b76eabc.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZbQaHL2rwzWexAo2xFohnTtm/aYpy2rxPaMBu0et8M="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sponsors/57d5029f-9467-475f-a4b0-3f645b76eabc.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\sponsors\\57d5029f-9467-475f-a4b0-3f645b76eabc.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206618"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZbQaHL2rwzWexAo2xFohnTtm/aYpy2rxPaMBu0et8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 22:15:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZbQaHL2rwzWexAo2xFohnTtm/aYpy2rxPaMBu0et8M="
         }
       ]
     },
@@ -11433,6 +11990,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-GFSg8dVQO6V8s93W6sGJ+mm3cQz5UT/wtWabFYDksxk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/users/4407ff25-9d3e-4294-b639-9456bf5eb608.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\4407ff25-9d3e-4294-b639-9456bf5eb608.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 19:14:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/users/4407ff25-9d3e-4294-b639-9456bf5eb608.vrgm9zjqvx.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\4407ff25-9d3e-4294-b639-9456bf5eb608.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 19:14:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vrgm9zjqvx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/users/4407ff25-9d3e-4294-b639-9456bf5eb608.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a8MuVPLMT3UKhNh4wwUQrF4H5YSUBzc4ObyRnF0GXzE="
         }
       ]
     },
@@ -12011,6 +12650,88 @@
       ]
     },
     {
+      "Route": "uploads/users/83fdce2b-26af-43db-a02b-3d0159c541da.4tkryobxqs.png",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\83fdce2b-26af-43db-a02b-3d0159c541da.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GFSg8dVQO6V8s93W6sGJ+mm3cQz5UT/wtWabFYDksxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 15:10:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4tkryobxqs"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/users/83fdce2b-26af-43db-a02b-3d0159c541da.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GFSg8dVQO6V8s93W6sGJ+mm3cQz5UT/wtWabFYDksxk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/users/83fdce2b-26af-43db-a02b-3d0159c541da.png",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\83fdce2b-26af-43db-a02b-3d0159c541da.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GFSg8dVQO6V8s93W6sGJ+mm3cQz5UT/wtWabFYDksxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 15:10:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GFSg8dVQO6V8s93W6sGJ+mm3cQz5UT/wtWabFYDksxk="
+        }
+      ]
+    },
+    {
       "Route": "uploads/users/89aa11c4-86a2-4d65-b785-25f383212e5b.4tkryobxqs.png",
       "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\89aa11c4-86a2-4d65-b785-25f383212e5b.png",
       "Selectors": [],
@@ -12171,88 +12892,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-GFSg8dVQO6V8s93W6sGJ+mm3cQz5UT/wtWabFYDksxk="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/users/999eaf2e-eb43-4737-bd74-1db4b09fbe96.fl1n5cyaq8.jpg",
-      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\999eaf2e-eb43-4737-bd74-1db4b09fbe96.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17480"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"09w4BjAAbOA5bslUMO7tWoBD+s5Y6xhfce1pTdYOzrE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 00:46:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fl1n5cyaq8"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/users/999eaf2e-eb43-4737-bd74-1db4b09fbe96.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-09w4BjAAbOA5bslUMO7tWoBD+s5Y6xhfce1pTdYOzrE="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/users/999eaf2e-eb43-4737-bd74-1db4b09fbe96.jpg",
-      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\999eaf2e-eb43-4737-bd74-1db4b09fbe96.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17480"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"09w4BjAAbOA5bslUMO7tWoBD+s5Y6xhfce1pTdYOzrE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 04 May 2025 00:46:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-09w4BjAAbOA5bslUMO7tWoBD+s5Y6xhfce1pTdYOzrE="
         }
       ]
     },
@@ -12581,6 +13220,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-GFSg8dVQO6V8s93W6sGJ+mm3cQz5UT/wtWabFYDksxk="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/users/fc117e85-c052-46d0-855e-13965a23282f.4gnzfsq0so.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\fc117e85-c052-46d0-855e-13965a23282f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3518553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jJ94aeW5IAyDj9wj0+zLqZC3Nb+M4COEOGjDpoehc4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 15:57:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4gnzfsq0so"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/users/fc117e85-c052-46d0-855e-13965a23282f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jJ94aeW5IAyDj9wj0+zLqZC3Nb+M4COEOGjDpoehc4I="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/users/fc117e85-c052-46d0-855e-13965a23282f.jpg",
+      "AssetFile": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\fc117e85-c052-46d0-855e-13965a23282f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3518553"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jJ94aeW5IAyDj9wj0+zLqZC3Nb+M4COEOGjDpoehc4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 15:57:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jJ94aeW5IAyDj9wj0+zLqZC3Nb+M4COEOGjDpoehc4I="
         }
       ]
     }

@@ -39,9 +39,15 @@ builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddScoped<ISubscriptionRepository, SubscriptionRepository>();
 builder.Services.AddScoped<IContactService, ContactService>();
-builder.Services.AddScoped<IUserAsyncRepository, UserAsyncRepository>();
 builder.Services.AddScoped<ISubscriptionService, SubscriptionService>();
-builder.Services.AddScoped<IUserAsyncService, UserAsyncService>(); // Ensure this line is present
+builder.Services.AddScoped<INewsRepository, NewsRepository>();
+builder.Services.AddScoped<INewsService, NewsService>();
+builder.Services.AddScoped<IPlayerRepository, PlayerRepository>();
+builder.Services.AddScoped<IPlayerService, PlayerService>();
+builder.Services.AddScoped<IScheduleRepository, ScheduleRepository>();
+builder.Services.AddScoped<IScheduleService, ScheduleService>();
+builder.Services.AddScoped<ISponsorRepository, SponsorRepository>();
+builder.Services.AddScoped<ISponsorService, SponsorService>();
 
 var app = builder.Build();
 
@@ -60,25 +66,6 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-
-app.MapControllerRoute(
-    name: "subscription",
-    pattern: "Subscription/{action=Subscription}/{id?}",
-    defaults: new { controller = "Subscription" }
-);
-
-
-app.MapControllerRoute(
-    name: "contact",
-    pattern: "Contact/{action=Contact}/{id?}",
-    defaults: new { controller = "Contact" }
-);
-
-app.MapControllerRoute(
-    name: "userasync",
-    pattern: "UserAsync/{action=UserAsync}/{id?}",
-    defaults: new { controller = "UserAsync" }
-);
 
 app.MapControllerRoute(
     name: "default",

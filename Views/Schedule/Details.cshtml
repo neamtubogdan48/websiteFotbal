@@ -1,0 +1,58 @@
+﻿@model mvc.Models.Schedule
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<link rel="stylesheet" href="~/css/usersCRUD.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/default.css" asp-append-version="true" />
+
+<h1 class="centerDiv">Details</h1>
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.id)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.homeTeam)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.awayTeam)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.stadium)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.matchDate)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.result)
+		</th>
+	</tr>
+	<tr>
+		<th>
+			@Html.DisplayFor(model => model.id)
+		</th>
+		<td>
+			@Html.DisplayFor(model => model.homeTeam)
+		</td>
+		<td>
+			@Html.DisplayFor(model => model.awayTeam)
+		</td>
+		<td>
+			@Html.DisplayFor(model => model.stadium)
+		</td>
+		<td>
+			@Html.DisplayFor(model => model.matchDate)
+		</td>
+		<td>
+			@Html.DisplayFor(model => model.result)
+		</td>
+	</tr>
+</table>
+
+<div class="centerDiv">
+    <a asp-action="Edit" asp-route-id="@Model.id" class="btn">Edit</a>
+    <a asp-action="Index" class="btn">Back to List</a>
+</div>

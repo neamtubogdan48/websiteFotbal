@@ -64,7 +64,7 @@ namespace mvc.Controllers
                 await _subscriptionService.UpdateSubscriptionAsync(subscription);
             }
 
-            return RedirectToAction("User", "UserAsync");
+            return RedirectToAction("User", "Users");
         }
     }
 }

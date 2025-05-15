@@ -1,0 +1,48 @@
+﻿@model mvc.Models.Schedule
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<link rel="stylesheet" href="~/css/usersCRUD.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/default.css" asp-append-version="true" />
+
+<h1 class="centerDiv">Edit Contact</h1>
+
+<div class="centerDiv">
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="id" />
+        <div>
+            <label asp-for="homeTeam" class="control-label"></label>
+            <input asp-for="homeTeam" class="form-control" />
+            <span asp-validation-for="homeTeam" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="awayTeam" class="control-label"></label>
+            <input asp-for="awayTeam" class="form-control" />
+            <span asp-validation-for="awayTeam" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="stadium" class="control-label"></label>
+            <input asp-for="stadium" class="form-control" />
+            <span asp-validation-for="stadium" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="matchDate" class="control-label"></label>
+            <input asp-for="matchDate" class="form-control" type="datetime-local" />
+            <span asp-validation-for="matchDate" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="result" class="control-label"></label>
+            <input asp-for="result" class="form-control" />
+            <span asp-validation-for="result" class="text-danger"></span>
+        </div>
+        <div class="centerDiv">
+            <input type="submit" value="Save" class="btn" />
+        </div>
+    </form>
+</div>
+
+<div class="centerDiv">
+    <a asp-action="Index" class="btn">Back to List</a>
+</div>

@@ -10,4 +10,6 @@ public interface IUserService
     Task AddUserAsync(Users user, string role);
     Task UpdateUserAsync(Users user);
     Task DeleteUserAsync(Users user);
+    Task UpdateUserAccountTypeAsync(string userId, string accountType);
+    Task<Users?> GetUserWithSubscriptionAsync(string userId);
 }

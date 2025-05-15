@@ -1,5 +1,6 @@
 // Services/UserService.cs
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using mvc.IRepository;
 using mvc.Models;
 
@@ -50,5 +51,30 @@ public class UserService : IUserService
     public async Task DeleteUserAsync(Users user)
     {
         await _userRepository.DeleteUserAsync(user);
+    }
+
+    public async Task UpdateUserAccountTypeAsync(string userId, string accountType)
+    {
+        var user = await _userRepository.GetUserByIdAsync(userId);
+        if (user != null)
+        {
+            user.accountType = accountType;
+            await _userRepository.UpdateUserAsync(user);
+        }
+    }
+
+    public async Task<Users?> GetUserWithSubscriptionAsync(string userId)
+    {
+        var user = await _userRepository.GetUserWithSubscriptionAsync(userId);
+
+        if (user?.subscription == null)
+        {
+            user!.subscription = new Subscription
+            {
+                type = "N/A",
+                expireDate = DateTime.MinValue // Default values for no subscription
+            };
+        }
+        return user;
     }
 }

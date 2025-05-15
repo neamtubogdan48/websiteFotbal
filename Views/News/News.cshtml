@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "News";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Universitatea Craiova</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="~/images/logo.ico">
+    <link rel="stylesheet" href="~/css/default.css">
+    <link rel="stylesheet" href="~/css/news.css">
+
+</head>
+
+<body class="stiriBody">
+
+    <div class="news">
+        <ul>
+            <li class="newsArticles">
+                <a asp-controller="News" asp-action="NewsArticle">
+                    <img src="~/images/stire1.jpeg" alt="news" width="400" height="300">
+                </a>
+                <h2>Un gol face diferența între FCSB și Universitatea Craiova</h2>
+                <p>Lun, 10 Mar 2025</p>
+            </li>
+        </ul>
+    </div>
+
+    <script src="../js/footer.js"></script>
+
+</body>
+</html>

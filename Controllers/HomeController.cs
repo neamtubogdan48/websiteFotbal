@@ -31,36 +31,6 @@ namespace mvc.Controllers
             return View();
         }
 
-        public IActionResult News()
-        {
-            ViewData["Title"] = "News"; // Set the ViewData["Title"]
-            return View();
-        }
-
-        public IActionResult NewsArticle1()
-        {
-            ViewData["Title"] = "NewsArticle1"; // Set the ViewData["Title"]
-            return View();
-        }
-
-        public IActionResult Players()
-        {
-            ViewData["Title"] = "Players"; // Set the ViewData["Title"]
-            return View();
-        }
-
-        public IActionResult Schedule()
-        {
-            ViewData["Title"] = "Schedule"; // Set the ViewData["Title"]
-            return View();
-        }
-
-        public IActionResult Sponsors()
-        {
-            ViewData["Title"] = "Sponsors"; // Set the ViewData["Title"]
-            return View();
-        }
-
         public IActionResult AccessDenied()
         {
             ViewData["Title"] = "AccessDenied";

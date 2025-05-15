@@ -1,11 +1,3 @@
-.userInfo {
-    display: flex;
-    flex-direction: column; /* Arrange items in a column */
-    justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Center the items vertically */
-    text-align: center; /* Center the text */
-}
-
 .userBody {
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
@@ -13,6 +5,16 @@
     background-attachment: fixed;
     background-position: center center;
 }
+
+.userInfo {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    text-align: center; /* Center the text */
+    margin-bottom: 60px;
+}
+
 .userInfo h1 {
     margin-bottom: 15px; /* Add some space below the heading */
 }

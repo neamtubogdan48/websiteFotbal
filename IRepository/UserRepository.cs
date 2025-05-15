@@ -121,4 +121,13 @@ public class UserRepository : IUserRepository
         _context.UserRoles.Add(userRole);
         await _context.SaveChangesAsync();
     }
+
+    public async Task<Users?> GetUserWithSubscriptionAsync(string userId)
+    {
+        return await _context.Users
+            .Include(u => u.subscription)
+            .AsNoTracking()
+            .FirstOrDefaultAsync(u => u.Id == userId);
+    }
+
 }

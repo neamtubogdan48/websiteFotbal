@@ -16,5 +16,6 @@ public interface IUserRepository
     Task AddUserRoleAsync(IdentityUserRole<string> userRole);
     Task UpdateUserRoleAsync(Users user, string newRole);
     Task AddUserRoleAsync(string userId, string roleId);
+    Task<Users?> GetUserWithSubscriptionAsync(string userId);
 }
 

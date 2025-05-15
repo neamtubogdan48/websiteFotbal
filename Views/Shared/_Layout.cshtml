@@ -20,18 +20,18 @@
 
         <nav class="navbar">
             <ul>
-                <li><a asp-controller="Home" asp-action="News">Stiri</a></li>
-                <li><a asp-controller="Home" asp-action="Schedule">Program</a></li>
+                <li><a asp-controller="News" asp-action="News">Stiri</a></li>
+                <li><a asp-controller="Schedule" asp-action="Schedule">Program</a></li>
                 <li><a asp-controller="Home" asp-action="History">Istoric</a></li>
-                <li><a asp-controller="Home" asp-action="Players">Jucatori</a></li>
+                <li><a asp-controller="Player" asp-action="Players">Jucatori</a></li>
                 <li><a asp-controller="Subscription" asp-action="Subscription">Abonamente</a></li>
-                <li><a asp-controller="Home" asp-action="Sponsors">Sponsori</a></li>
+                <li><a asp-controller="Sponsor" asp-action="Sponsors">Sponsori</a></li>
                 <li><a asp-controller="Contact" asp-action="Contact">Contact</a></li>
 
                 @if (signInManager.IsSignedIn(User))
                 {
                     <li>
-                        <a asp-controller="UserAsync" asp-action="User">User</a>
+                        <a asp-controller="Users" asp-action="User">User</a>
                     </li>
 
                     <li><a asp-controller="Account" asp-action="Logout">Logout</a></li>
@@ -46,7 +46,7 @@
 
         @if (signInManager.IsSignedIn(User))
         {
-            <a asp-controller="UserAsync" asp-action="User">
+            <a asp-controller="Users" asp-action="User">
                 <img id="photoPath" src="@Url.Content(currentUser?.photoPath)" alt="Profile" width="100" height="100">
             </a>
         }

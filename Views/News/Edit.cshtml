@@ -1,0 +1,43 @@
+﻿@model mvc.Models.News
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<link rel="stylesheet" href="~/css/usersCRUD.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/default.css" asp-append-version="true" />
+
+<h1 class="centerDiv">Edit</h1>
+
+<div class="centerDiv">
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="id" />
+        <div>
+            <label asp-for="title" class="control-label"></label>
+            <input asp-for="title" class="form-control" />
+            <span asp-validation-for="title" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="description" class="control-label"></label>
+            <textarea asp-for="description" class="form-control"></textarea>
+            <span asp-validation-for="description" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="publishDate" class="control-label"></label>
+            <input asp-for="publishDate" class="form-control" type="date" />
+            <span asp-validation-for="publishDate" class="text-danger"></span>
+        </div>
+        <input type="hidden" asp-for="photo" value ="@Model.photo"/>
+        <div>
+            <label for="photoPathFile" class="control-label">Upload Document</label>
+            <input type="file" name="photoPathFile" id="photoPathFile" class="form-control" />
+        </div>
+        <div class="centerDiv">
+            <input type="submit" value="Save" class="btn" />
+        </div>
+    </form>
+</div>
+
+<div class="centerDiv">
+    <a asp-action="Index" class="btn">Back to List</a>
+</div>
