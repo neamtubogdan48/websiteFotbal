@@ -1,23 +1,44 @@
-.players ul{
-    display: flex;
-    justify-content: center; /* Center the images horizontally */
-    align-items: center; /* Center the images vertically */
-    list-style-type: none;
-    padding: 0;
-    margin: 20px 0px; /* Add some margin for spacing */
-    margin-bottom: 50px; /* Add some margin at the bottom */
+.players {
+    max-width: 1020px; /* 3 * 300px (image+padding) + 2 * 40px (gap) */
+    margin: 0 auto;
 }
 
-.players h1 {
-    margin-left: 300px;
-}
+    .players ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0px;
+        margin-bottom: 50px;
+        gap: 0 40px; /* horizontal gap between items */
+    }
 
-.players li {
-    margin: 0 40px; /* Add some space between the images */
-}
+    .players li {
+        flex: 0 1 300px; /* Each li takes up to 300px */
+        max-width: 300px;
+        margin-bottom: 40px;
+        box-sizing: border-box;
+    }
 
-.players img {
-    width: 250px;
-    height: 300px;
-    border-radius: 10px;
-}
+
+    .players h1 {
+        text-align: center;
+        margin: 0 auto 20px auto;
+        width: 100%;
+        /* Remove margin-right or margin-left */
+    }
+
+
+
+    .players img {
+        margin-left: 20px;
+        width: 250px;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .players p {
+        margin-left: 20px;
+    }

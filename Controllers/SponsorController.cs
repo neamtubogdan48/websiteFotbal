@@ -18,11 +18,13 @@ namespace mvc.Controllers
             _env = env;
         }
 
-        public IActionResult Sponsors()
+        public async Task<IActionResult> Sponsors()
         {
-            ViewData["Title"] = "Sponsors"; // Set the ViewData["Title"]
-            return View();
+            ViewData["Title"] = "Sponsors";
+            var sponsors = await _sponsorService.GetAllAsync();
+            return View(sponsors ?? new List<Sponsor>());
         }
+
 
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
@@ -45,7 +47,7 @@ namespace mvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Create([Bind("name,description,photo")] Sponsor sponsor, IFormFile photoPathFile)
+        public async Task<IActionResult> Create([Bind("name,description,link,photo")] Sponsor sponsor, IFormFile photoPathFile)
         {
             if (photoPathFile != null && photoPathFile.Length > 0)
             {
@@ -98,7 +100,7 @@ namespace mvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Edit(int id, [Bind("id,name,description,photo")] Sponsor sponsor, IFormFile photoPathFile)
+        public async Task<IActionResult> Edit(int id, [Bind("id,name,description,link,photo")] Sponsor sponsor, IFormFile photoPathFile)
         {
             var existing = await _sponsorService.GetByIdAsync(id);
             if (existing == null) return NotFound();

@@ -7,15 +7,28 @@
 }
 
 .news {
-    display: flex;
-    align-items: center; /* Align items vertically */
+    width: 100%;
+    max-width: 1320px; /* 3 * 400px + gaps/margins */
+    margin: 0 auto;
     padding-bottom: 60px;
-    width: 400px;
 }
 
-.news ul {
-    list-style-type: none;
+    .news ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 40px 20px; /* row gap, column gap */
+        padding: 0;
+        list-style-type: none;
+    }
+
+.newsArticles {
+    flex: 0 1 400px;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 0;
 }
+
 
 .newsArticles img {
     border-radius: 10px;

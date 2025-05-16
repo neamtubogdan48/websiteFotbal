@@ -17,10 +17,11 @@ namespace mvc.Controllers
             _env = env;
         }
 
-        public IActionResult Players()
+        public async Task<IActionResult> Players()
         {
             ViewData["Title"] = "Players"; // Set the ViewData["Title"]
-            return View();
+            var players = await _playerService.GetAllAsync();
+            return View(players ?? new List<Player>());
         }
 
         [Authorize(Roles = "Admin")]

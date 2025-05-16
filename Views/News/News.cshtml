@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<mvc.Models.News>
+
+@{
     ViewData["Title"] = "News";
 }
 
@@ -21,13 +23,16 @@
 
     <div class="news">
         <ul>
-            <li class="newsArticles">
-                <a asp-controller="News" asp-action="NewsArticle">
-                    <img src="~/images/stire1.jpeg" alt="news" width="400" height="300">
-                </a>
-                <h2>Un gol face diferența între FCSB și Universitatea Craiova</h2>
-                <p>Lun, 10 Mar 2025</p>
-            </li>
+            @foreach (var news in Model.OrderByDescending(n => n.publishDate))
+            {
+                <li class="newsArticles">
+                    <a asp-action ="NewsArticle" asp-route-id ="@news.id">
+                        <img src="@Url.Content(news.photo)" alt="news" width="400" height="300" />
+                    </a>
+                    <h2>@news.title</h2>
+					<p>@news.publishDate.ToString("dd MMM yyyy")</p>
+                </li>
+            }
         </ul>
     </div>
 

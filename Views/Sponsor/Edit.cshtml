@@ -19,8 +19,13 @@
         </div>
         <div>
             <label asp-for="description" class="control-label"></label>
-            <input asp-for="description" class="form-control"></input>
+            <textarea asp-for="description" class="form-control"></textarea>
             <span asp-validation-for="description" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="link" class="control-label"></label>
+            <input asp-for="link" class="form-control"></input>
+            <span asp-validation-for="link" class="text-danger"></span>
         </div>
         <div>
             <label for="photoPathFile" class="control-label">Upload Document</label>

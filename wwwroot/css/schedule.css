@@ -25,6 +25,8 @@
     flex-direction: row;
 }
 
-.nextMatches {
-    margin-left : 30px;
+.pastMatches, .nextMatches {
+    width: 500px; /* Set your desired fixed width */
+    margin: 0 auto 30px auto; /* Center and add spacing below */
+    box-sizing: border-box;
 }

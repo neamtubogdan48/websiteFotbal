@@ -21,6 +21,9 @@
 			@Html.DisplayNameFor(model => model.description)
 		</th>
 		<th>
+			@Html.DisplayNameFor(model => model.link)
+		</th>
+		<th>
 			@Html.DisplayNameFor(model => model.photo)
 		</th>
 	</tr>
@@ -33,6 +36,9 @@
 		</td>
 		<td>
 			@Html.DisplayFor(model => model.description)
+		</td>
+		<td>
+			<a href="@Model.link" target="_blank">@Html.DisplayFor(model => model.link)</a>
 		</td>
 		<td>
 			@if (!string.IsNullOrEmpty(Model.photo))
@@ -50,7 +56,7 @@
 <div class="centerDiv">
     <form asp-action="Delete">
         <input type="hidden" asp-for="id" />
-        <input type="submit" value="Delete" class="btn" /> |
+        <input type="submit" value="Delete" class="btn" />
         <a asp-action="Index" class="btn">Back to List</a>
     </form>
 </div>

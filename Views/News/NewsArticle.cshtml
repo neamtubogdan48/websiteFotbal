@@ -1,5 +1,7 @@
-﻿@{
-    ViewData["Title"] = "NewsArticle1";
+﻿@model mvc.Models.News
+
+@{
+    ViewData["Title"] = "NewsArticle";
 }
 
 <!DOCTYPE html>
@@ -20,12 +22,11 @@
 <body>
 
     <section class="newsArticle">
-        <h1>Un gol face diferența între FCSB și Universitatea Craiova</h1>
-        <p>Lun, 10 Mar 2025</p>
-        <img src="~/images/stire1.jpeg" alt="news" width="960" height="720">
-        <p>Golul lui Adrian Șut (min.29) a făcut diferența în întâlnirea dintre FCSB și Universitatea Craiova. Jucătorul gazdelor a punctat cu o execuție de la 20 de metri. Meciul s-a încheiat cu victoria FCSB-ului. iar Știința este la prima înfrângere de la revenirea lui Mirel Rădoi pe banca tehnică. Universitatea încheie sezonul regulat pe locul 3, iar în prima etapă din play-off va întâlni Universitatea Cluj pe teren prorpiu.</p>
-        <p>FCSB: Târnovanu – Crețu, M.Popescu, Ngezana, Kiki – Șut, Chiricheș (71, Alhassan) – Cisotti, Tănase (86, Edjouma), Gheorghiță (77, Toma) – Băluță (46, Miculescu). Antrenor: Elias Charalambous.</p>
-        <p>Universitatea Craiova: Popescu – Mora, Maldonado, Badelj, Bancu – Oshima (68, Anzor), Screciu (80, Lukic), Houri (68, Bană) – Baiaram, Safira, Mitriță. Antrenor: Mirel Rădoi.</p>
+        <h1>@Model.title</h1>
+        <p>@Model.publishDate.ToString("dd MMM yyyy")</p>
+        <img src="@Url.Content(@Model.photo)" alt="news" width="960" height="720">
+        <p>@Model.description</p>
+
     </section>
 
     <script src="../js/footer.js"></script>

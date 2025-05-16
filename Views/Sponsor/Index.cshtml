@@ -22,7 +22,7 @@
             @Html.DisplayNameFor(model => model.name)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.description)
+            @Html.DisplayNameFor(model => model.link)
         </th>
 		<th>
             @Html.DisplayNameFor(model => model.photo)
@@ -39,7 +39,7 @@
                 @Html.DisplayFor(modelItem => item.name)
             </td>
 			<td>
-				@Html.DisplayFor(modelItem => item.description)
+				<a href="@item.link" target="_blank">@Html.DisplayFor(modelItem => item.link)</a>
             <td>
                 @if (!string.IsNullOrEmpty(item.photo))
                 {

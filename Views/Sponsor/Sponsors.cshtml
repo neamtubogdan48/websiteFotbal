@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<mvc.Models.Sponsor>
+
+@{
     ViewData["Title"] = "Sponsors";
 }
 
@@ -6,7 +8,6 @@
 <html lang="en">
 <head>
     <title>Universitatea Craiova</title>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,44 +15,23 @@
     <link rel="icon" href="~/images/logo.ico">
     <link rel="stylesheet" href="~/css/default.css">
     <link rel="stylesheet" href="~/css/sponsors.css">
-
 </head>
-
 <body>
-
     <section class="sponsors">
         <ul>
-            <li>
-                <a href="https://ro.betano.com/">
-                    <img src="~/images/betano.png" alt="logo" width="300" height="300">
-                </a>
-                <p>
-                    BETANO.com este o platformă de jocuri de noroc online care folosește cele mai noi tehnologii pentru a oferi o interfață prietenoasă membrilor și o experiență de pariuri completă. Platforma pune la dispoziția membrilor o gamă largă de activități de pariuri, precum pariuri sportive, pariuri sportive live, cazinou. Oferind servicii de înaltă calitate, precum asistență rapidă, tranzacții sigure și rapide, platforma BETANO este special gândită pentru a răspunde nevoilor membrilor săi. BETANO.com este parte a Gambling Malta Limited, o companie de jocuri de noroc online, care operează legal în Grecia, Cipru și România.
-                </p>
-            </li>
-            <li>
-                <a href="http://eu.puma.com/">
-                    <img src="~/images/puma.png" alt="logo" width="300" height="300">
-                </a>
-                <p>
-                    Sport has the power to transform and empower us. As one of the world’s leading sports brands, it’s only natural that we want to stand on the same playing field as the fastest athletes on the planet. To achieve that, the PUMA brand is based on the very values that make an excellent athlete.
-                    We’re never afraid to take risks. We trust our instincts to make unexpected choices that push sport forward.
-                    Share excitement in Teamsports. Innovate Golf. Bring style into Running and Training and performance into Motorsports. In the light of our FOREVER FASTER mission, we bring a high level of brand heat to sports and elevate PUMA to the next level.
-                </p>
-                </p>
-            </li>
-            <li>
-                <a href="http://sportisimo.ro/">
-                    <img src="~/images/sportisimo.png" alt="logo" width="300" height="300">
-                </a>
-                <p>
-                    Suntem cel mai cunoscut retailer de articole sportive în Cehia, unde deținem peste 100 de magazine deschise în cei 20 de ani de existență și unde suntem lider de piață ca vânzări dar și în preferințele publicului. Magazinele Sportisimo sunt acum prezente și în România, Polonia, Ungaria, Slovacia, iar curând și în Bulgaria păstrând aceeași formulă care ne-a garantat succesul: branduri de top la prețuri accesibile!
-                </p>
-            </li>
+            @foreach (var sponsor in Model)
+            {
+                <li>
+                    <a href="@sponsor.link">
+                        <img src="@Url.Content(sponsor.photo)" alt="logo" width="300" height="300">
+                    </a>
+                    <p>
+                        @sponsor.description
+                    </p>
+                </li>
+            }
         </ul>
     </section>
-
     <script src="../js/footer.js"></script>
-
 </body>
 </html>

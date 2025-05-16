@@ -16,16 +16,20 @@ namespace mvc.Controllers
             _newsService = newsService;
         }
 
-        public IActionResult News()
+        public async Task<IActionResult> News()
         {
             ViewData["Title"] = "News"; // Set the ViewData["Title"]
-            return View();
+            var news = await _newsService.GetAllNewsAsync();
+            return View(news ?? new List<News>());
         }
 
-        public IActionResult NewsArticle()
+        public async Task<IActionResult> NewsArticle(int id)
         {
-            ViewData["Title"] = "NewsArticle"; // Set the ViewData["Title"]
-            return View();
+            ViewData["Title"] = "NewsArticle";
+            var news = await _newsService.GetNewsByIdAsync(id);
+            if (news == null)
+                return NotFound();
+            return View(news);
         }
 
         [Authorize(Roles = "Admin")]

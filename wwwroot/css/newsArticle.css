@@ -17,3 +17,9 @@
     margin-bottom: 10px;
     border-radius : 10px;
 }
+
+    .newsArticle p {
+        max-width: 1200px;
+        margin: 0 auto;
+        white-space: pre-line;
+    }

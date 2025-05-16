@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<mvc.Models.Schedule>
+
+@{
     ViewData["Title"] = "Schedule";
 }
 
@@ -21,49 +23,31 @@
 
     <section class="schedule">
         <div class="nextMatches">
-            <h1> Urmatoarele meciuri</h1>
-            <h2>
-                <img src="~/images/dinamo.png" alt="dinamo" width="50" height="50">
-                FC Dinamo Bucuresti - Universitatea Craiova
-                <img src="~/images/craiova.png" alt="craiova" width="50" height="50">
-            </h2>
-            <p>Stadion: Arcul de Triumf</p>
-            <p>Data: Sâm, 19 Apr 2025</p>
-            <p>Ora: 20:30</p>
-            <h2>
-                <img src="~/images/craiova.png" alt="craiova" width="50" height="50">
-                Universitatea Craiova - FCSB
-                <img src="~/images/fcsb.png" alt="fcsb" width="50" height="50">
-            </h2>
-            <p>Stadion: Ion Oblemenco</p>
-            <p>Data: Sâm, 12 Apr 2025</p>
-            <p>Ora: 20:30</p>
-            <h2>
-                <img src="~/images/cfr.png" alt="cfr" width="50" height="50">
-                CFR Cluj - Universitatea Craiova
-                <img src="~/images/craiova.png" alt="craiova" width="50" height="50">
-            </h2>
-            <p>Stadion: Dr. Constantin Rădulescu</p>
-            <p>Data: Sâm, 5 Apr 2025</p>
-            <p>Ora: 20:30</p>
+            <h1>Urmatoarele meciuri</h1>
+            @foreach (var schedules in Model)
+            {
+                @if (schedules.matchDate > DateTime.Now)
+			    {
+					<h2>@schedules.homeTeam - @schedules.awayTeam</h2>
+                    <p>Stadion: @schedules.stadium</p>
+					<p>Data: @schedules.matchDate.ToString("dd MMM yyyy")</p>
+					<p>Ora: @schedules.matchDate.ToString("HH:mm")</p>
+                }
+		    }
         </div>
-
         <div class="pastMatches">
             <h1> Meciuri jucate</h1>
-            <h2>
-                <img src="~/images/craiova.png" alt="craiova" width="50" height="50">
-                Universitatea Craiova - FC Rapid Bucuresti
-                <img src="~/images/rapid.png" alt="rapid" width="50" height="50">
-            </h2>
-            <p>Data: Sâm, 31 Aug 2024</p>
-            <p>Rezultat: 1-1</p>
-            <h2>
-                <img src="~/images/craiova.png" alt="craiova" width="50" height="50">
-                Universitatea Craiova - FC Poli Iasi
-                <img src="~/images/poli.png" alt="poli" width="50" height="50">
-            </h2>
-            <p>Data: Dum, 02 Feb 2025</p>
-            <p>Rezultat: 4-1</p>
+            @foreach (var schedules in Model)
+            {
+                @if (schedules.matchDate < DateTime.Now)
+                {
+					<h2>@schedules.homeTeam - @schedules.awayTeam</h2>
+                    <p>Stadion: @schedules.stadium</p>
+                    <p>Data: @schedules.matchDate.ToString("dd MMM yyyy")</p>
+                    <p>Ora: @schedules.matchDate.ToString("HH:mm")</p>
+					<p>Rezultat: @schedules.result</p>
+                }
+            }
         </div>
     </section>
 

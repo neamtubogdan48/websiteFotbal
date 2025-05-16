@@ -16,10 +16,11 @@ namespace mvc.Controllers
             _scheduleService = scheduleService;
         }
 
-        public IActionResult Schedule()
+        public async Task<IActionResult> Schedule()
         {
             ViewData["Title"] = "Schedule"; // Set the ViewData["Title"]
-            return View();
+            var schedules = await _scheduleService.GetAllAsync();
+            return View(schedules ?? new List<Schedule>());
         }
 
         [Authorize(Roles = "Admin")]
@@ -47,6 +48,8 @@ namespace mvc.Controllers
         {
             if (ModelState.IsValid)
             {
+                schedule.matchDate = DateTime.SpecifyKind(schedule.matchDate, DateTimeKind.Utc);
+
                 await _scheduleService.AddAsync(schedule);
                 return RedirectToAction(nameof(Index));
             }
