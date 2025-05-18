@@ -106,6 +106,47 @@ namespace mvc.Controllers
                 }
             }
 
+            if (photoPathFile != null && photoPathFile.Length > 0)
+            {
+                const long maxFileSize = 5 * 1024 * 1024; // 5MB
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+                var fileExtension = Path.GetExtension(photoPathFile.FileName).ToLower();
+
+                if (photoPathFile.Length > maxFileSize)
+                {
+                    ModelState.AddModelError("photoPathFile", "The file size cannot exceed 5MB.");
+                }
+
+                if (!allowedExtensions.Contains(fileExtension))
+                {
+                    ModelState.AddModelError("photoPathFile", "Only JPG, JPEG and PNG files are allowed.");
+                }
+
+                if (ModelState.IsValid)
+                {
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads/users");
+                    Directory.CreateDirectory(uploadsFolder);
+
+                    var uniqueFileName = Guid.NewGuid().ToString() + fileExtension;
+                    var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await photoPathFile.CopyToAsync(stream);
+                    }
+
+                    if (!string.IsNullOrEmpty(existingUser.photoPath))
+                    {
+                        var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", existingUser.photoPath.TrimStart('/'));
+                        if (System.IO.File.Exists(oldFilePath))
+                        {
+                            System.IO.File.Delete(oldFilePath);
+                        }
+                    }
+                    existingUser.photoPath = $"/uploads/users/{uniqueFileName}";
+                }
+            }
+
             // Update only the fields that are changed
             if (!string.IsNullOrEmpty(user.UserName) && user.UserName != existingUser.UserName)
             {
