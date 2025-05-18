@@ -10,7 +10,7 @@
 <h1 class="centerDiv">Edit</h1>
 
 <div class="centerDiv">
-    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <form asp-action="Settings" method="post" enctype="multipart/form-data">
         <input type="hidden" asp-for="Id" />
         <div>
             <label asp-for="UserName" class="control-label"></label>
@@ -23,9 +23,16 @@
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
         <div>
-            <label asp-for="PasswordHash" class="control-label"></label>
-            <input asp-for="PasswordHash" class="form-control" />
-            <span asp-validation-for="PasswordHash" class="text-danger"></span>
+            <label for="currentPassword">Current Password</label>
+            <input id="currentPassword" name="currentPassword" class="form-control" type="password" />
+        </div>
+        <div>
+            <label for="newPassword" class="control-label">New Password</label>
+            <input type="password" name="newPassword" class="form-control" />
+        </div>
+        <div>
+            <label for="confirmPassword" class="control-label">Confirm New Password</label>
+            <input type="password" name="confirmPassword" class="form-control" />
         </div>
             <input type="hidden" asp-for="accountType" />
             <input type="hidden" asp-for="subscriptionId" />
@@ -41,5 +48,5 @@
 </div>
 
 <div class="centerDiv">
-    <a asp-action="User" class="btn">Back</a>
+    <a asp-action="User" class="btn" style="margin-bottom:60px;">Back</a>
 </div>

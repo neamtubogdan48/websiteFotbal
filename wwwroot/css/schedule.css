@@ -30,3 +30,37 @@
     margin: 0 auto 30px auto; /* Center and add spacing below */
     box-sizing: border-box;
 }
+
+.admin-menu {
+    display: flex;
+    gap: 0.5rem; /* Optional: adds space between buttons */
+    align-items: center;
+}
+
+    .admin-menu form {
+        display: inline;
+    }
+
+.menu-item {
+    display: inline-flex;
+    align-items: center;
+    background: transparent !important;
+    border: none;
+    padding: 0;
+    margin: 0;
+    transition: color 0.2s, background 0.2s;
+}
+
+    .menu-item:hover,
+    .menu-item:focus {
+        color: #2196f3; /* Light blue */
+        background: rgba(33, 150, 243, 0.12); /* Light blue background on hover */
+        text-decoration: underline;
+        outline: none;
+    }
+
+.createButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

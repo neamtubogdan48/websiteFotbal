@@ -22,6 +22,11 @@
 <body>
 
     <section class="players">
+        <div class="createButton">
+            <a class="menu-item" asp-action="Create">
+                <i class="fa fa-plus-square" style="margin-right: 0.5em;"></i> Add player
+            </a>
+        </div>
         <h1>Portari</h1>
         <ul class="gk">
             @foreach(var player in Model.OrderBy(n => n.number))
@@ -31,6 +36,19 @@
                     <li>
                         <img src="@Url.Content(player.photo)" alt="@player.number" />
                         <p>@player.number. @player.name</p>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <div class="admin-menu">
+                                <a class="menu-item" asp-action="Edit" asp-route-id="@player.id">
+                                    <i class="fa fa-edit me-2"></i>Edit
+                                </a>
+                                <form asp-action="Delete" asp-route-id="@player.id" method="post">
+                                    <button type="submit" class="menu-item">
+                                        <i class="fa fa-trash me-2"></i>Delete
+                                    </button>
+                                </form>
+                            </div>
+                        }
                     </li>
                 }
             }      
@@ -45,6 +63,19 @@
                     <li>
                         <img src="@Url.Content(player.photo)" alt="@player.number" />
                         <p>@player.number. @player.name</p>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <div class="admin-menu">
+                                <a class="menu-item" asp-action="Edit" asp-route-id="@player.id">
+                                    <i class="fa fa-edit me-2"></i>Edit
+                                </a>
+                                <form asp-action="Delete" asp-route-id="@player.id" method="post">
+                                    <button type="submit" class="menu-item">
+                                        <i class="fa fa-trash me-2"></i>Delete
+                                    </button>
+                                </form>
+                            </div>
+                        }
                     </li>
                 }
             }
@@ -59,6 +90,19 @@
                     <li>
                         <img src="@Url.Content(player.photo)" alt="@player.number" />
                         <p>@player.number. @player.name</p>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <div class="admin-menu">
+                                <a class="menu-item" asp-action="Edit" asp-route-id="@player.id">
+                                    <i class="fa fa-edit me-2"></i>Edit
+                                </a>
+                                <form asp-action="Delete" asp-route-id="@player.id" method="post">
+                                    <button type="submit" class="menu-item">
+                                        <i class="fa fa-trash me-2"></i>Delete
+                                    </button>
+                                </form>
+                            </div>
+                        }
                     </li>
                 }
             }
@@ -73,6 +117,19 @@
                     <li>
                         <img src="@Url.Content(player.photo)" alt="@player.number" />
                         <p>@player.number. @player.name</p>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <div class="admin-menu">
+                                <a class="menu-item" asp-action="Edit" asp-route-id="@player.id">
+                                    <i class="fa fa-edit me-2"></i>Edit
+                                </a>
+                                <form asp-action="Delete" asp-route-id="@player.id" method="post">
+                                    <button type="submit" class="menu-item">
+                                        <i class="fa fa-trash me-2"></i>Delete
+                                    </button>
+                                </form>
+                            </div>
+                        }
                     </li>
                 }
             }
@@ -87,6 +144,19 @@
                     <li>
                         <img src="@Url.Content(player.photo)" alt="@player.number" />
                         <p>@player.name</p>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <div class="admin-menu">
+                                <a class="menu-item" asp-action="Edit" asp-route-id="@player.id">
+                                    <i class="fa fa-edit me-2"></i>Edit
+                                </a>
+                                <form asp-action="Delete" asp-route-id="@player.id" method="post">
+                                    <button type="submit" class="menu-item">
+                                        <i class="fa fa-trash me-2"></i>Delete
+                                    </button>
+                                </form>
+                            </div>
+                        }
                     </li>
                 }
             }

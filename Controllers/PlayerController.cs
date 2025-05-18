@@ -103,7 +103,7 @@ namespace mvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Edit(int id, [Bind("name,number,position,photo")] Player player, IFormFile photoPathFile)
+        public async Task<IActionResult> Edit(int id, [Bind("name,number,position,photo")] Player player, IFormFile? photoPathFile)
         {
             var existing = await _playerService.GetByIdAsync(id);
             if (existing == null) return NotFound();

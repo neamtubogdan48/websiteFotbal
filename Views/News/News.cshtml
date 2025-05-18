@@ -16,23 +16,43 @@
     <link rel="icon" href="~/images/logo.ico">
     <link rel="stylesheet" href="~/css/default.css">
     <link rel="stylesheet" href="~/css/news.css">
+    <link rel="stylesheet" href="~/css/home.css">
 
 </head>
 
 <body class="stiriBody">
 
     <div class="news">
+        <div class = "createButton">
+            <a class="menu-item" asp-action="Create">
+                <i class="fa fa-plus-square" style="margin-right: 0.5em;"></i> Add news
+            </a>
+        </div>
         <ul>
             @foreach (var news in Model.OrderByDescending(n => n.publishDate))
             {
-                <li class="newsArticles">
-                    <a asp-action ="NewsArticle" asp-route-id ="@news.id">
+                <li class="newsArticles" style="position:relative;">
+                    <a asp-action="NewsArticle" asp-route-id="@news.id">
                         <img src="@Url.Content(news.photo)" alt="news" width="400" height="300" />
                     </a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div class="admin-menu">
+                            <a class="menu-item" asp-action="Edit" asp-route-id="@news.id">
+                                <i class="fa fa-edit me-2"></i>Edit
+                            </a>
+                            <form asp-action="Delete" asp-route-id="@news.id" method="post">
+                                <button type="submit" class="menu-item">
+                                    <i class="fa fa-trash me-2"></i>Delete
+                                </button>
+                            </form>
+                        </div>
+                    }
                     <h2>@news.title</h2>
-					<p>@news.publishDate.ToString("dd MMM yyyy")</p>
+                    <p>@news.publishDate.ToString("dd MMM yyyy")</p>
                 </li>
             }
+
         </ul>
     </div>
 

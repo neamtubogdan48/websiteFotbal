@@ -116,7 +116,7 @@ namespace mvc.Controllers
         [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,title,description,publishDate")] News news, IFormFile photoPathFile)
+        public async Task<IActionResult> Edit(int id, [Bind("id,title,description,publishDate")] News news, IFormFile? photoPathFile)
         {
             if (id != news.id)
                 return BadRequest();

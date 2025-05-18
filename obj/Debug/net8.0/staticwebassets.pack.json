@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\history.css"
     },
     {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
     },
@@ -433,6 +437,10 @@
       "PackagePath": "staticwebassets\\uploads\\news\\3e8e00ba-a386-4ce3-82c7-d37b301e76cb.jpeg"
     },
     {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\54064a3d-62da-4cae-ac45-6ae414d3ec10.jpg",
+      "PackagePath": "staticwebassets\\uploads\\news\\54064a3d-62da-4cae-ac45-6ae414d3ec10.jpg"
+    },
+    {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\570caa48-decd-49c6-bc76-595f2c3b60fb.jpg",
       "PackagePath": "staticwebassets\\uploads\\news\\570caa48-decd-49c6-bc76-595f2c3b60fb.jpg"
     },
@@ -521,10 +529,6 @@
       "PackagePath": "staticwebassets\\uploads\\users\\1dff0e81-2798-471b-aa9a-0393a438a1cf.png"
     },
     {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\4407ff25-9d3e-4294-b639-9456bf5eb608.jpg",
-      "PackagePath": "staticwebassets\\uploads\\users\\4407ff25-9d3e-4294-b639-9456bf5eb608.jpg"
-    },
-    {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\50a4a2d5-1c70-4b2d-82f3-2c39f84e8c62.png",
       "PackagePath": "staticwebassets\\uploads\\users\\50a4a2d5-1c70-4b2d-82f3-2c39f84e8c62.png"
     },
@@ -579,6 +583,10 @@
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\default - Copy.png",
       "PackagePath": "staticwebassets\\uploads\\users\\default - Copy.png"
+    },
+    {
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\df52379b-809d-4961-a824-bf9728cc254c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\users\\df52379b-809d-4961-a824-bf9728cc254c.jpg"
     },
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\fc117e85-c052-46d0-855e-13965a23282f.jpg",

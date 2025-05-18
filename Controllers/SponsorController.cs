@@ -100,7 +100,7 @@ namespace mvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Edit(int id, [Bind("id,name,description,link,photo")] Sponsor sponsor, IFormFile photoPathFile)
+        public async Task<IActionResult> Edit(int id, [Bind("id,name,description,link,photo")] Sponsor sponsor, IFormFile? photoPathFile)
         {
             var existing = await _sponsorService.GetByIdAsync(id);
             if (existing == null) return NotFound();

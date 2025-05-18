@@ -18,6 +18,11 @@
 </head>
 <body>
     <section class="sponsors">
+        <div class="createButton">
+            <a class="menu-item" asp-action="Create">
+                <i class="fa fa-plus-square" style="margin-right: 0.5em;"></i> Add sponsor
+            </a>
+        </div>
         <ul>
             @foreach (var sponsor in Model)
             {
@@ -25,6 +30,19 @@
                     <a href="@sponsor.link">
                         <img src="@Url.Content(sponsor.photo)" alt="logo" width="300" height="300">
                     </a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div class="admin-menu">
+                            <a class="menu-item" asp-action="Edit" asp-route-id="@sponsor.id">
+                                <i class="fa fa-edit me-2"></i>Edit
+                            </a>
+                            <form asp-action="Delete" asp-route-id="@sponsor.id" method="post">
+                                <button type="submit" class="menu-item">
+                                    <i class="fa fa-trash me-2"></i>Delete
+                                </button>
+                            </form>
+                        </div>
+                    }
                     <p>
                         @sponsor.description
                     </p>

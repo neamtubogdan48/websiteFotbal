@@ -4,6 +4,7 @@ using mvc.Services;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 
 namespace mvc.Controllers
 {
@@ -54,7 +55,7 @@ namespace mvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin, Suporter, Vizitator")]
-        public async Task<IActionResult> Settings(string id, [Bind("Id,UserName,Email,PasswordHash,accountType,subscriptionId")] Users user, IFormFile? photoPathFile)
+        public async Task<IActionResult> Settings(string id, [Bind("Id,UserName,Email,PasswordHash,accountType,subscriptionId")] Users user, IFormFile? photoPathFile, string? currentPassword, string? newPassword, string? confirmPassword)
         {
             if (id != user.Id)
             {
@@ -67,63 +68,60 @@ namespace mvc.Controllers
                 return NotFound("User not found.");
             }
 
+            // Handle password change
+            if (!string.IsNullOrEmpty(currentPassword) || !string.IsNullOrEmpty(newPassword) || !string.IsNullOrEmpty(confirmPassword))
+            {
+                // If any password field is filled, require all
+                if (string.IsNullOrEmpty(currentPassword) || string.IsNullOrEmpty(newPassword) || string.IsNullOrEmpty(confirmPassword))
+                {
+                    ModelState.AddModelError(string.Empty, "To change password, fill all password fields.");
+                }
+                else if (newPassword != confirmPassword)
+                {
+                    ModelState.AddModelError("confirmPassword", "The new password and confirmation do not match.");
+                }
+                else
+                {
+                    var userManagerUser = await _userManager.FindByIdAsync(id);
+                    if (userManagerUser == null)
+                    {
+                        return NotFound("User not found in UserManager.");
+                    }
+
+                    if (!await _userManager.CheckPasswordAsync(userManagerUser, currentPassword))
+                    {
+                        ModelState.AddModelError("currentPassword", "The current password is incorrect.");
+                    }
+                    else
+                    {
+                        var passwordChangeResult = await _userManager.ChangePasswordAsync(userManagerUser, currentPassword, newPassword);
+                        if (!passwordChangeResult.Succeeded)
+                        {
+                            foreach (var error in passwordChangeResult.Errors)
+                            {
+                                ModelState.AddModelError(string.Empty, error.Description);
+                            }
+                        }
+                    }
+                }
+            }
+
             // Update only the fields that are changed
             if (!string.IsNullOrEmpty(user.UserName) && user.UserName != existingUser.UserName)
             {
                 existingUser.UserName = user.UserName;
+                existingUser.NormalizedUserName = user.Email.ToUpperInvariant();
             }
 
             if (!string.IsNullOrEmpty(user.Email) && user.Email != existingUser.Email)
             {
                 existingUser.Email = user.Email;
+                existingUser.NormalizedEmail = user.Email.ToUpperInvariant();
             }
 
             if (!string.IsNullOrEmpty(user.PasswordHash) && user.PasswordHash != existingUser.PasswordHash)
             {
                 existingUser.PasswordHash = user.PasswordHash;
-            }
-
-            // Handle profile photo upload if a new file is provided
-            if (photoPathFile != null && photoPathFile.Length > 0)
-            {
-                const long maxFileSize = 5 * 1024 * 1024; // 5MB
-                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
-                var fileExtension = Path.GetExtension(photoPathFile.FileName).ToLower();
-
-                if (photoPathFile.Length > maxFileSize)
-                {
-                    ModelState.AddModelError("photoPathFile", "The file size cannot exceed 5MB.");
-                }
-
-                if (!allowedExtensions.Contains(fileExtension))
-                {
-                    ModelState.AddModelError("photoPathFile", "Only JPG, JPEG, and PNG files are allowed.");
-                }
-
-                if (ModelState.IsValid)
-                {
-                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads/users");
-                    Directory.CreateDirectory(uploadsFolder);
-
-                    var uniqueFileName = Guid.NewGuid().ToString() + fileExtension;
-                    var filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await photoPathFile.CopyToAsync(stream);
-                    }
-
-                    if (!string.IsNullOrEmpty(existingUser.photoPath))
-                    {
-                        var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", existingUser.photoPath.TrimStart('/'));
-                        if (System.IO.File.Exists(oldFilePath))
-                        {
-                            System.IO.File.Delete(oldFilePath);
-                        }
-                    }
-
-                    existingUser.photoPath = $"/uploads/users/{uniqueFileName}";
-                }
             }
 
             if (!ModelState.IsValid)
@@ -134,14 +132,15 @@ namespace mvc.Controllers
             try
             {
                 await _userService.UpdateUserAsync(existingUser);
-                return RedirectToAction(nameof(User));
+                return RedirectToAction("User", "Users");
             }
             catch (Exception ex)
             {
                 ModelState.AddModelError(string.Empty, ex.Message);
-                return View(existingUser);
             }
+            return View(existingUser);
         }
+
 
         // GET: Users
         [Authorize(Roles = "Admin")]
@@ -180,7 +179,7 @@ namespace mvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Create([Bind("UserName,Email,PasswordHash,accountType,subscriptionId,photoPath")] Users user, IFormFile photoPathFile)
+        public async Task<IActionResult> Create([Bind("UserName,Email,PasswordHash,accountType,subscriptionId,photoPath")] Users user, IFormFile? photoPathFile)
         {
             if (photoPathFile != null && photoPathFile.Length > 0)
             {
@@ -263,7 +262,7 @@ namespace mvc.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,UserName,Email,PasswordHash,accountType,subscriptionId,photoPath")] Users user, IFormFile photoPathFile)
+        public async Task<IActionResult> Edit(string id, [Bind("Id,UserName,Email,PasswordHash,accountType,subscriptionId,photoPath")] Users user, string? newPassword, IFormFile? photoPathFile)
         {
             if (id != user.Id)
             {
@@ -274,6 +273,59 @@ namespace mvc.Controllers
             if (existingUser == null)
             {
                 return NotFound("User not found.");
+            }
+
+            // Handle password change
+            if (!string.IsNullOrEmpty(newPassword))
+            {
+
+                // Generate a password reset token
+                var userManagerUser = await _userManager.FindByIdAsync(id);
+                if (userManagerUser == null)
+                {
+                    return NotFound("User not found in UserManager.");
+                }
+
+                var resetToken = await _userManager.GeneratePasswordResetTokenAsync(userManagerUser);
+
+                // Reset the password using the token
+                var passwordChangeResult = await _userManager.ResetPasswordAsync(userManagerUser, resetToken, newPassword);
+                if (!passwordChangeResult.Succeeded)
+                {
+                    foreach (var error in passwordChangeResult.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
+                    return RedirectToAction("Edit", new { id });
+                }
+            }
+
+            // Update only the fields that are changed
+            if (!string.IsNullOrEmpty(user.UserName) && user.UserName != existingUser.UserName)
+            {
+                existingUser.UserName = user.UserName;
+                existingUser.NormalizedUserName = user.Email.ToUpperInvariant();
+            }
+
+            if (!string.IsNullOrEmpty(user.Email) && user.Email != existingUser.Email)
+            {
+                existingUser.Email = user.Email;
+                existingUser.NormalizedEmail = user.Email.ToUpperInvariant();
+            }
+
+            if (!string.IsNullOrEmpty(user.PasswordHash) && user.PasswordHash != existingUser.PasswordHash)
+            {
+                existingUser.PasswordHash = user.PasswordHash;
+            }
+
+            if (user.subscriptionId != 0 && user.subscriptionId != existingUser.subscriptionId)
+            {
+                existingUser.subscriptionId = user.subscriptionId;
+            }
+
+            if (!string.IsNullOrEmpty(user.accountType) && user.accountType != existingUser.accountType)
+            {
+                existingUser.accountType = user.accountType;
             }
 
             if (photoPathFile != null && photoPathFile.Length > 0)
@@ -313,13 +365,8 @@ namespace mvc.Controllers
                             System.IO.File.Delete(oldFilePath);
                         }
                     }
-
-                    user.photoPath = $"/uploads/users/{uniqueFileName}";
+                    existingUser.photoPath = $"/uploads/users/{uniqueFileName}";
                 }
-            }
-            else
-            {
-                user.photoPath = existingUser.photoPath;
             }
 
             if (!ModelState.IsValid)
@@ -329,7 +376,7 @@ namespace mvc.Controllers
 
             try
             {
-                await _userService.UpdateUserAsync(user);
+                await _userService.UpdateUserAsync(existingUser);
                 return RedirectToAction(nameof(Index));
             }
             catch (Exception ex)

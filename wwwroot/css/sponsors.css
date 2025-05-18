@@ -1,20 +1,67 @@
-.sponsors ul{
+.sponsors {
     display: flex;
-    justify-content: flex-start; /* Center the images horizontally */
-    align-items: flex-start; /* Center the images vertically */
-    flex-wrap: wrap; /* Wrap the images */
-    list-style-type: none;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically if parent allows */
+    width: 100%;
+}
+
+    .sponsors ul {
+        display: flex;
+        justify-content: center; /* Center the list items horizontally */
+        align-items: flex-start;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+
+    .sponsors li {
+        margin: 0 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center content inside each li */
+    }
+
+    .sponsors img {
+        width: 250px;
+        height: 200px;
+        margin: 0 auto; /* Center image inside li */
+        display: block;
+    }
+
+
+.admin-menu {
+    display: flex;
+    gap: 0.5rem; /* Optional: adds space between buttons */
+    align-items: center;
+}
+
+    .admin-menu form {
+        display: inline;
+    }
+
+.menu-item {
+    display: inline-flex;
+    align-items: center;
+    background: transparent !important;
+    border: none;
     padding: 0;
-    margin-bottom: 60px; /* Add some margin at the bottom */
+    margin: 0;
+    transition: color 0.2s, background 0.2s;
 }
 
-.sponsors li {
-    margin: 0 40px; /* Add some space between the images */
-}
+    .menu-item:hover,
+    .menu-item:focus {
+        color: #2196f3; /* Light blue */
+        background: rgba(33, 150, 243, 0.12); /* Light blue background on hover */
+        text-decoration: underline;
+        outline: none;
+    }
 
-.sponsors img {
-    width: 250px;
-    height: 200px;
-    margin-left: 40%;
-    margin-right: 50%;
+.createButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

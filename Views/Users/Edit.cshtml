@@ -23,6 +23,10 @@
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
         <div>
+            <label for="newPassword" class="control-label">New Password</label>
+            <input type="password" name="newPassword" class="form-control" />
+        </div>
+        <div>
             <label asp-for="accountType" class="control-label"></label>
             <select asp-for="accountType" class="form-control">
                 <option value="Admin">Admin</option>
@@ -48,5 +52,5 @@
 </div>
 
 <div class="centerDiv">
-    <a asp-action="Index" class="btn">Back to List</a>
+    <a asp-action="Index" class="btn" style="margin-bottom:60px;">Back to List</a>
 </div>

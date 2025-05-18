@@ -55,6 +55,8 @@ public class UserRepository : IUserRepository
         existingUser.accountType = user.accountType;
         existingUser.subscriptionId = user.subscriptionId;
         existingUser.photoPath = user.photoPath;
+        existingUser.NormalizedEmail = user.NormalizedEmail;
+        existingUser.NormalizedUserName = user.NormalizedUserName;
 
         await _context.SaveChangesAsync();
     }
