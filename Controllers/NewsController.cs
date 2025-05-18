@@ -198,8 +198,20 @@ namespace mvc.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            // Retrieve the news item to get the photo path
+            var existingNews = await _newsService.GetNewsByIdAsync(id);
+
+            // Delete old file if exists
+            if (existingNews != null && !string.IsNullOrEmpty(existingNews.photo))
+            {
+                var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", existingNews.photo.TrimStart('/'));
+                if (System.IO.File.Exists(oldFilePath))
+                    System.IO.File.Delete(oldFilePath);
+            }
+
             await _newsService.DeleteNewsAsync(id);
             return RedirectToAction(nameof(Index));
         }
+
     }
 }

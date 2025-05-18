@@ -170,11 +170,12 @@ namespace mvc.Controllers
             var sponsor = await _sponsorService.GetByIdAsync(id);
             if (sponsor == null) return NotFound();
 
-            // Delete photo file
-            if (!string.IsNullOrEmpty(sponsor.photo))
+            // Delete old file if exists
+            if (sponsor != null && !string.IsNullOrEmpty(sponsor.photo))
             {
-                var photoPath = Path.Combine(_env.WebRootPath, sponsor.photo.TrimStart('/').Replace('/', Path.DirectorySeparatorChar));
-                if (System.IO.File.Exists(photoPath)) System.IO.File.Delete(photoPath);
+                var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", sponsor.photo.TrimStart('/'));
+                if (System.IO.File.Exists(oldFilePath))
+                    System.IO.File.Delete(oldFilePath);
             }
 
             await _sponsorService.DeleteAsync(sponsor);

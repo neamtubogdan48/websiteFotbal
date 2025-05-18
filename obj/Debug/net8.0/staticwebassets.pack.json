@@ -73,76 +73,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\10.jpg",
-      "PackagePath": "staticwebassets\\images\\10.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\11.jpg",
-      "PackagePath": "staticwebassets\\images\\11.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\15.jpg",
-      "PackagePath": "staticwebassets\\images\\15.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\20.jpg",
-      "PackagePath": "staticwebassets\\images\\20.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\21.jpg",
-      "PackagePath": "staticwebassets\\images\\21.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\28.jpg",
-      "PackagePath": "staticwebassets\\images\\28.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\3.jpg",
-      "PackagePath": "staticwebassets\\images\\3.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\32.jpg",
-      "PackagePath": "staticwebassets\\images\\32.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\33.jpg",
-      "PackagePath": "staticwebassets\\images\\33.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\5.jpg",
-      "PackagePath": "staticwebassets\\images\\5.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\6.jpg",
-      "PackagePath": "staticwebassets\\images\\6.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\9.jpg",
-      "PackagePath": "staticwebassets\\images\\9.jpg"
-    },
-    {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\background.png",
       "PackagePath": "staticwebassets\\images\\background.png"
     },
     {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\betano.png",
-      "PackagePath": "staticwebassets\\images\\betano.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\cfr.png",
-      "PackagePath": "staticwebassets\\images\\cfr.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\craiova.png",
-      "PackagePath": "staticwebassets\\images\\craiova.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\dinamo.png",
-      "PackagePath": "staticwebassets\\images\\dinamo.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\fcsb.png",
-      "PackagePath": "staticwebassets\\images\\fcsb.png"
+      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\default.png",
+      "PackagePath": "staticwebassets\\images\\default.png"
     },
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\fundal2.jpg",
@@ -159,38 +95,6 @@
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\poli.png",
-      "PackagePath": "staticwebassets\\images\\poli.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\pozaDreapta.jpg",
-      "PackagePath": "staticwebassets\\images\\pozaDreapta.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\pozaStanga.jpg",
-      "PackagePath": "staticwebassets\\images\\pozaStanga.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\puma.png",
-      "PackagePath": "staticwebassets\\images\\puma.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\radoi.jpg",
-      "PackagePath": "staticwebassets\\images\\radoi.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\rapid.png",
-      "PackagePath": "staticwebassets\\images\\rapid.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\sportisimo.png",
-      "PackagePath": "staticwebassets\\images\\sportisimo.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\images\\stire1.jpeg",
-      "PackagePath": "staticwebassets\\images\\stire1.jpeg"
     },
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\js\\footer.js",
@@ -429,16 +333,8 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\39cf8c0f-491d-40b4-b76c-c9bd00c968bb.jpg",
-      "PackagePath": "staticwebassets\\uploads\\news\\39cf8c0f-491d-40b4-b76c-c9bd00c968bb.jpg"
-    },
-    {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\3e8e00ba-a386-4ce3-82c7-d37b301e76cb.jpeg",
       "PackagePath": "staticwebassets\\uploads\\news\\3e8e00ba-a386-4ce3-82c7-d37b301e76cb.jpeg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\54064a3d-62da-4cae-ac45-6ae414d3ec10.jpg",
-      "PackagePath": "staticwebassets\\uploads\\news\\54064a3d-62da-4cae-ac45-6ae414d3ec10.jpg"
     },
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\570caa48-decd-49c6-bc76-595f2c3b60fb.jpg",
@@ -449,16 +345,8 @@
       "PackagePath": "staticwebassets\\uploads\\news\\63cbae47-424f-4db6-877d-1af700b07b28.jpg"
     },
     {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\987930e4-8775-407c-82d5-1b24d45a8f8e.jpg",
-      "PackagePath": "staticwebassets\\uploads\\news\\987930e4-8775-407c-82d5-1b24d45a8f8e.jpg"
-    },
-    {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\news\\ae2d0251-433a-4c7f-82af-d90414a79ff2.jpg",
       "PackagePath": "staticwebassets\\uploads\\news\\ae2d0251-433a-4c7f-82af-d90414a79ff2.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\players\\225c41b5-bbb3-47cc-8769-1550d9f4013d.jpg",
-      "PackagePath": "staticwebassets\\uploads\\players\\225c41b5-bbb3-47cc-8769-1550d9f4013d.jpg"
     },
     {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\players\\2b1cd90a-21a6-4239-985c-6ad628a29507.jpg",
@@ -525,72 +413,8 @@
       "PackagePath": "staticwebassets\\uploads\\sponsors\\c795ba03-c15e-4e0d-9ba0-96b3d8b89178.png"
     },
     {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\1dff0e81-2798-471b-aa9a-0393a438a1cf.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\1dff0e81-2798-471b-aa9a-0393a438a1cf.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\50a4a2d5-1c70-4b2d-82f3-2c39f84e8c62.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\50a4a2d5-1c70-4b2d-82f3-2c39f84e8c62.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\53ee4826-d925-404d-90c2-2bb4e74b9481.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\53ee4826-d925-404d-90c2-2bb4e74b9481.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\5d2ea607-2976-49cc-ad95-7d669fd46c63.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\5d2ea607-2976-49cc-ad95-7d669fd46c63.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\6c593bb2-092f-4454-a42b-c495abdb3fe7.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\6c593bb2-092f-4454-a42b-c495abdb3fe7.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\6f095370-8746-4bcb-b45c-f1c554127eb8.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\6f095370-8746-4bcb-b45c-f1c554127eb8.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\77d46ccf-8a44-4e20-a96c-41b1790a2b31.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\77d46ccf-8a44-4e20-a96c-41b1790a2b31.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\7cd6ec7b-f603-4a86-aee6-d2aa21fddd69.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\7cd6ec7b-f603-4a86-aee6-d2aa21fddd69.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\83fdce2b-26af-43db-a02b-3d0159c541da.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\83fdce2b-26af-43db-a02b-3d0159c541da.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\89aa11c4-86a2-4d65-b785-25f383212e5b.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\89aa11c4-86a2-4d65-b785-25f383212e5b.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\98657ca1-2565-4eba-b449-52fb48c49f65.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\98657ca1-2565-4eba-b449-52fb48c49f65.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\9dfc87f2-1679-4da5-bffe-cfb42701f8fd.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\9dfc87f2-1679-4da5-bffe-cfb42701f8fd.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\a43334a9-41ba-4193-b418-ff1ad2aebbae.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\a43334a9-41ba-4193-b418-ff1ad2aebbae.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\c13fbaf8-80f5-4b36-922f-a5cde7d13103.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\c13fbaf8-80f5-4b36-922f-a5cde7d13103.png"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\default - Copy.png",
-      "PackagePath": "staticwebassets\\uploads\\users\\default - Copy.png"
-    },
-    {
       "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\df52379b-809d-4961-a824-bf9728cc254c.jpg",
       "PackagePath": "staticwebassets\\uploads\\users\\df52379b-809d-4961-a824-bf9728cc254c.jpg"
-    },
-    {
-      "Id": "D:\\Facultate\\Anul III\\Sem II\\Proiect PAW\\mvc dev 2\\mvc\\wwwroot\\uploads\\users\\fc117e85-c052-46d0-855e-13965a23282f.jpg",
-      "PackagePath": "staticwebassets\\uploads\\users\\fc117e85-c052-46d0-855e-13965a23282f.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.mvc.props",

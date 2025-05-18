@@ -178,11 +178,12 @@ namespace mvc.Controllers
             var player = await _playerService.GetByIdAsync(id);
             if (player == null) return NotFound();
 
-            // Delete photo file
-            if (!string.IsNullOrEmpty(player.photo))
+            // Delete old file if exists
+            if (player != null && !string.IsNullOrEmpty(player.photo))
             {
-                var photoPath = Path.Combine(_env.WebRootPath, player.photo.TrimStart('/').Replace('/', Path.DirectorySeparatorChar));
-                if (System.IO.File.Exists(photoPath)) System.IO.File.Delete(photoPath);
+                var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", player.photo.TrimStart('/'));
+                if (System.IO.File.Exists(oldFilePath))
+                    System.IO.File.Delete(oldFilePath);
             }
 
             await _playerService.DeleteAsync(player);

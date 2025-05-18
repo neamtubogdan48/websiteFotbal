@@ -25,6 +25,6 @@ namespace mvc.ViewModels
         public string accountType { get; set; } = "Vizitator";
         public string subscriptionType { get; set; } = "N/A";
         public int subscriptionId { get; set; } = 0;
-        public string photoPath { get; set; } = "/uploads/users/default.png";
+        public string photoPath { get; set; } = "/images/default.png";
     }
 }

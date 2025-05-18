@@ -410,31 +410,21 @@ namespace mvc.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            if (string.IsNullOrEmpty(id))
-            {
-                return BadRequest("User ID cannot be null or empty.");
-            }
 
-            try
+            var user = await _userService.GetUserByIdAsync(id);
+
+            if (!string.IsNullOrEmpty(user.photoPath) && user.photoPath != "/images/default.png")
             {
-                var user = await _userService.GetUserByIdAsync(id);
-                if (user == null)
+                var oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", user.photoPath.TrimStart('/'));
+                if (System.IO.File.Exists(oldFilePath))
                 {
-                    return NotFound("User not found.");
+                    System.IO.File.Delete(oldFilePath);
                 }
-
-                // Call the service to delete the user
-                await _userService.DeleteUserAsync(user);
-
-                Console.WriteLine($"User with ID: {id} deleted successfully.");
-                return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error deleting user with ID: {id}. Exception: {ex.Message}");
-                ModelState.AddModelError(string.Empty, "An error occurred while deleting the user.");
-                return View();
-            }
+
+            // Call the service to delete the user
+            await _userService.DeleteUserAsync(user);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
